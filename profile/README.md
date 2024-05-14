@@ -1,5 +1,5 @@
 
-# ![Logo](https://avatars.githubusercontent.com/u/166196656?s=96&v=4) Cloud Yellow Team
+# ![Logo](https://avatars.githubusercontent.com/u/166196656?s=96&v=4) 🩳 Yellow Team
 
 
 [![yellowteam.cloud](https://img.shields.io/badge/yellowteam.cloud-FFFF00?style=for-the-badge&logo=ko-fi&logoColor=black)](https:/yellowteam.cloud/)
