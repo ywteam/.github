@@ -1,0 +1,15 @@
+{
+    "name": "Yellow Public Profile",
+    "dockerComposeFile": [
+        "../../../../compose.devcontainer.yml",
+        "compose.yaml"
+    ],
+    "service": "yellow-public-profile",
+    "shutdownAction": "none",
+    "workspaceFolder": "/workspace",
+    "containerUser": "root",
+    "features": {
+		
+	}
+}
+

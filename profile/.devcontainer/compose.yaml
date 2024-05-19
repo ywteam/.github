@@ -1,0 +1,14 @@
+services:  
+  yellow-public-profile:
+    container_name: yellow-public-profile
+    image: mcr.microsoft.com/devcontainers/typescript-node:1-18
+    command: /bin/sh -c "sleep infinity "
+    # command: bash -c "npm install && npm run build && npm run test"
+    networks:
+      - ywteam
+    environment:
+      - NODE_ENV=development
+      - HOST_USER_ID=${UID:-1000}
+      - HOST_GROUP_ID=${GID:-1000}
+    volumes:
+      - .:/workspace:cached      
